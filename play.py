@@ -43,6 +43,7 @@ def gameLoop(n = 0, puzzle = None):
     
     
     print(puzzle)
+    print("Go to the game and choose the type of search you want")
     print("i for IDA star search avec heuristic 1")
     print("j for IDA star search avec heuristic 2")
     print("a for A star search avec heuristic 1")
