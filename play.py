@@ -17,7 +17,7 @@ pygame.display.set_caption('{} Puzzle'.format(BOARD_SIZE**2-1))
 FPS = 30
 
 # Fonts
-#tileFont = pygame.font.SysFont("comicsansms", 72)
+tileFont = pygame.font.SysFont("comicsansms", 72)
 
 # Colors
 black = (0,0,0)
@@ -171,10 +171,10 @@ def drawPuzzle(puzzle):
             pygame.draw.rect(screen, currentTileColor, rect)
             pygame.draw.rect(screen, borderColor, rect, 1)
 
-            #fontImg = tileFont.render(numberText, 1, fontColor)
-            #screen.blit(fontImg,
-                        #(j*width/puzzle.boardSize + (width/puzzle.boardSize - fontImg.get_width())/2,
-                        #i*height/puzzle.boardSize + (height/puzzle.boardSize - fontImg.get_height())/2))
+            fontImg = tileFont.render(numberText, 1, fontColor)
+            screen.blit(fontImg,
+                        (j*width/puzzle.boardSize + (width/puzzle.boardSize - fontImg.get_width())/2,
+                        i*height/puzzle.boardSize + (height/puzzle.boardSize - fontImg.get_height())/2))
 
 
 if __name__ =="__main__":
