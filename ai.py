@@ -450,7 +450,7 @@ def bidirectional_search(start_state, goal_state):
 def drawGraph(lists, title):
     x = np.arange(len(lists))
     plt.plot(x, lists)
-    plt.title(title)
+    plt.title("evolution of spatial complexity with ",title)
     plt.xlabel("X-axis")
     plt.ylabel("Y-axis")
     
