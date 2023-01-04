@@ -94,6 +94,16 @@ def sortFrontier(lists):
 
 
 
+# Return Max Value
+
+def maxValue(lists):
+    maxV = 0
+
+    for i in range(len(lists)):
+        if maxV < lists[i]:
+            maxV = lists[i]
+    return maxV
+
 
 
 
@@ -172,7 +182,7 @@ def bfs(puzzle, timer = -1):
                     path = reconstruct_path(came_from, child)
                     # Calculate the elapsed time
                     tDelta = (perf_counter_ns()-t1)/NANO_TO_SEC
-                    drawGraph(LENFRONTIER, "Breadth-first search")
+                    print("The max value of frontier : ",maxValue(LENFRONTIER))
                     print("Took {} seconds to find a solution of {} moves".format(tDelta, len(path)-1))
                     return path
                     
@@ -234,7 +244,7 @@ def a_star_search(puzzle, goal_state, heuristicFunction, timer = -1):
             path = reconstruct_path(came_from, node)
             # Calculate the elapsed time
             tDelta = (perf_counter_ns()-t1)/NANO_TO_SEC
-            drawGraph(LENFRONTIER, "A Star search")
+            print("The max value of frontier : ",maxValue(LENFRONTIER))
             print("Took {} seconds to find a solution of {} moves".format(tDelta, len(path)-1))
             return path
         
@@ -306,7 +316,7 @@ def ida_star(puzzle, goal_state, heuristicFunction, timer = -1):
         # If the search function returns "FOUND", return the path
         if t == "FOUND":
             tDelta = (perf_counter_ns()-t1)/NANO_TO_SEC
-            drawGraph(LENFRONTIER, "IDA Star search")
+            print("The max value of frontier : ",maxValue(LENFRONTIER))
             print("Took {} seconds to find a solution of {} moves".format(tDelta, len(path)-1))
             return path
         if t == inf:
@@ -445,17 +455,6 @@ def bidirectional_search(start_state, goal_state):
 
 
 
-# Draw Graph
-
-def drawGraph(lists, title):
-    x = np.arange(len(lists))
-    plt.plot(x, lists)
-    plt.title("evolution of spatial complexity with ",title)
-    plt.xlabel("X-axis")
-    plt.ylabel("Y-axis")
-    
-    # Show Graph
-    plt.show()
 
                     
 
