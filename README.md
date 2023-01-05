@@ -58,7 +58,7 @@ Successively type on **h** key to get the next move until you reach the goal sta
 
 Initial state 
 
-![Capture d’écran 2023-01-05 à 04.07.44.png](README%209fd4fa0e195c4ef5980645ad1f8f8286/Capture_decran_2023-01-05_a_04.07.44.png)
+![Capture d’écran 2023-01-05 à 04.07.44.png](Capture_decran_2023-01-05_a_04.07.44.png)
 
 **h**=1
 
