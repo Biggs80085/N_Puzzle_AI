@@ -78,7 +78,7 @@ And finally reach the goal state
 
 ![Capture d’écran 2023-01-05 à 04.27.20.png](README%209fd4fa0e195c4ef5980645ad1f8f8286/Capture_decran_2023-01-05_a_04.27.20.png)
 
-If you wanna test all of them you should run the [test.py](http://test.py) file 
+If you wanna test all of them you should run the [test.py](https://github.com/Biggs80085/N_Puzzle_AI/blob/main/test.py) file 
 
 ```python
 python3 test.py
@@ -95,9 +95,9 @@ It uses a time limit and show the maximum n that each algorithm can solve.
 The project consists of the following files:
 
 - N_Puzzle_AI
-    - [play.py](http://play.py) : Implementation the pygame
-    - [model.py](http://model.py) : Puzzle class
-    - [ai.py](http://ai.py) : AI search algorithms
-    - [test.py](http://test.py)
+    - [play.py](https://github.com/Biggs80085/N_Puzzle_AI/blob/main/play.py) : Implementation the pygame
+    - [model.py](https://github.com/Biggs80085/N_Puzzle_AI/blob/main/model.py) : Puzzle class
+    - [ai.py](https://github.com/Biggs80085/N_Puzzle_AI/blob/main/ai.py) : AI search algorithms
+    - [test.py](https://github.com/Biggs80085/N_Puzzle_AI/blob/main/test.py)
 
 (More details on the report)
