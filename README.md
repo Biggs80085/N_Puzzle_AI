@@ -22,7 +22,7 @@ python play.py
 
 A game will pop up on your desk 
 
-![puzzle.png](Capture_decran_2023-01-05_a_04.07.44.png){width=100px height=50px}
+![puzzle.png](file/puzzle.png){width=100px height=50px}
 
 Wanna use the puzzle in the puzzle file ? Type **Y** on the terminal
 
@@ -52,7 +52,7 @@ The max value of frontier :  10
 Took 0.010889292 seconds to find a solution of 9 moves
 ```
 
-![Capture d’écran 2023-01-05 à 04.59.55.png](Capture d’écran 2023-01-05 à 04.59.55.png)
+![schema](file/schema.png)
 
 ```python
 python3 test.py
@@ -62,7 +62,7 @@ It will return the comparaison of different search algorithms, breadth-first sea
 
 It uses a time limit and show the maximum n that each algorithm can solve.
 
-![Capture d’écran 2023-01-05 à 01.22.45.png](README%209fd4fa0e195c4ef5980645ad1f8f8286/Capture_decran_2023-01-05_a_01.22.45.png)
+![output](file/output.png)
 
 ## **Project Structure**
 

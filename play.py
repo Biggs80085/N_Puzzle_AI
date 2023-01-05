@@ -98,7 +98,7 @@ def handleInput(event, puzzle):
             PATHPUZZLE = ai.a_star_search(puzzle, goal_state, ai.z_puzzle_heuristic1)  
         # Heuristic 2
         elif event.key == pygame.K_z:
-            print("A star search heuristic 1 in progress ...")
+            print("A star search heuristic 2 in progress ...")
             PATHPUZZLE = ai.a_star_search(puzzle, goal_state, ai.z_puzzle_heuristic2)
             
 
