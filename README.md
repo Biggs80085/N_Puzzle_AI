@@ -22,7 +22,7 @@ python play.py
 
 A game will pop up on your desk 
 
-![puzzle.png](file/puzzle.png){width=100px height=50px}
+![puzzle.png](file/puzzle.png)
 
 Wanna use the puzzle in the puzzle file ? Type **Y** on the terminal
 
