@@ -63,7 +63,7 @@ It will return the comparaison of different search algorithms, breadth-first sea
 
 It uses a time limit and show the maximum n that each algorithm can solve.
 
-![output](file/output.png)
+![output](file/out.png)
 
 ## **Project Structure**
 
