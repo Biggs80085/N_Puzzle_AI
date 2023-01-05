@@ -22,7 +22,7 @@ tileFont = pygame.font.SysFont("comicsansms", 72)
 # Colors
 black = (0,0,0)
 borderColor = (92, 90, 86)
-tileColor = (242, 197, 133)
+tileColor = (255, 253, 246)
 fontColor = black
 
 def gameLoop(n = 0, puzzle = None):
