@@ -57,6 +57,7 @@ Wanna see the shortest path? The solution of the puzzle with A* and h2?
 Successively type on **h** key to get the next move until you reach the goal state
 
 Initial state 
+<img src="Capture_decran_2023-01-05_a_04.07.44.png.png" alt="Alt Text" width="400" height="200">
 
 ![Capture d’écran 2023-01-05 à 04.07.44.png](Capture_decran_2023-01-05_a_04.07.44.png){width=400px height=200px}
 
