@@ -4,7 +4,7 @@ import model
 import ai
 import threading
 
-TIMER = 6
+TIMER = 60
 N = 30
 
 startPuzzle = []
