@@ -52,35 +52,7 @@ The max value of frontier :  10
 Took 0.010889292 seconds to find a solution of 9 moves
 ```
 
-Wanna see the shortest path? The solution of the puzzle with A* and h2? 
-
-Successively type on **h** key to get the next move until you reach the goal state
-
-Initial state 
-<img src="Capture_decran_2023-01-05_a_04.07.44.png.png" alt="Alt Text" width="400" height="200">
-
-![Capture d’écran 2023-01-05 à 04.07.44.png](Capture_decran_2023-01-05_a_04.07.44.png){width=400px height=200px}
-
-**h**=1
-
-![Capture d’écran 2023-01-05 à 04.20.24.png](README%209fd4fa0e195c4ef5980645ad1f8f8286/Capture_decran_2023-01-05_a_04.20.24.png)
-
-**h**=2
-
-![Capture d’écran 2023-01-05 à 04.20.50.png](README%209fd4fa0e195c4ef5980645ad1f8f8286/Capture_decran_2023-01-05_a_04.20.50.png)
-
-**h**=3
-
-![Capture d’écran 2023-01-05 à 04.21.11.png](README%209fd4fa0e195c4ef5980645ad1f8f8286/Capture_decran_2023-01-05_a_04.21.11.png)
-
-![Capture d’écran 2023-01-05 à 04.22.11.png](README%209fd4fa0e195c4ef5980645ad1f8f8286/Capture_decran_2023-01-05_a_04.22.11.png)
-
-And finally reach the goal state 
-
-![Capture d’écran 2023-01-05 à 04.27.20.png](README%209fd4fa0e195c4ef5980645ad1f8f8286/Capture_decran_2023-01-05_a_04.27.20.png)
-
-If you wanna test all of them you should run the [test.py](https://github.com/Biggs80085/N_Puzzle_AI/blob/main/test.py) file 
-
+![puzzle.png](Capture d’écran 2023-01-05 à 04.59.55.png){width=100px height=50px}
 ```python
 python3 test.py
 ```
