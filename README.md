@@ -52,7 +52,8 @@ The max value of frontier :  10
 Took 0.010889292 seconds to find a solution of 9 moves
 ```
 
-![puzzle.png](Capture d’écran 2023-01-05 à 04.59.55.png){width=100px height=50px}
+![Capture d’écran 2023-01-05 à 04.59.55.png](Capture d’écran 2023-01-05 à 04.59.55.png)
+
 ```python
 python3 test.py
 ```
