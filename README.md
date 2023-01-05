@@ -54,6 +54,7 @@ Took 0.010889292 seconds to find a solution of 9 moves
 
 ![schema](file/schema.png)
 
+If you wanna test all of them you should run the [test.py](https://github.com/Biggs80085/N_Puzzle_AI/blob/main/test.py) file 
 ```python
 python3 test.py
 ```
